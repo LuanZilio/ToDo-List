@@ -1,0 +1,33 @@
+.list-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0;
+    width: 400px;
+    height: 600px;
+    background-color: #D3D3D3;  
+    border-radius: 10px;
+}
+
+.input-container {
+    padding: 10px;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("../img/image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; 
+    background-size: cover;
+}
