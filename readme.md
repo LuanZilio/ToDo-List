@@ -27,7 +27,7 @@ Atualmente, ele possui apenas o front-end desenvolvido, com foco em estrutura e 
 2. Abra o arquivo `index.html` no navegador
 
 ## 📷 Preview
-![Preview](./IMG/preview.png)
+![Preview](./IMG/preview1.png)
 
 ## 📁 Status do projeto
 🚧 Em desenvolvimento

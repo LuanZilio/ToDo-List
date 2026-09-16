@@ -1,33 +1,106 @@
-.list-container {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
+* {
     padding: 0;
-    width: 400px;
-    height: 600px;
-    background-color: #D3D3D3;  
-    border-radius: 10px;
-}
-
-.input-container {
-    padding: 10px;
-}
-
-h1 {
-    border-bottom: 1px solid black;
-    padding-bottom: 10px;
-    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
 }
 
 body {
+    min-height: 100vh;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-image: url("../img/image.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh; 
-    background-size: cover;
+    justify-content: center;
+    background-color: black;
+}
+
+
+#listaTarefas {
+    margin: 1.5rem;
+    word-break: break-word;
+}
+
+.todoContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 600px;
+    max-height: 600px;
+    min-width: 500px;
+    max-width: 500px;
+    border-radius: 8px;
+    border: solid blue 2px;
+    background-color: rgb(36, 35, 35);
+    color: #fff;
+}
+
+main {
+    max-height: 90%;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: blue #1f1f1f;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 1rem;
+    color: blue;
+}
+
+h1 {
+    color: rgb(21, 129, 175);
+}
+
+form {
+    display: flex;
+    width: 75%;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+input {
+    width: 320px;
+    height: 1.5rem;
+    text-align: center;
+    outline: none;
+    color: rgb(180, 179, 179);
+    background-color: rgb(29, 26, 26);
+    border: solid rgb(21, 129, 175) 1px;
+    border-radius: 8px;
+}
+
+button {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: rgb(29, 26, 26);
+    border-radius: 8px;
+    transition: 0.4s;
+    cursor: pointer;
+    color: gray;
+    border: solid rgb(21, 129, 175) 1px;
+}
+
+button:hover {
+    background-color: rgb(21, 129, 175);
+    color: #fff;
+    
+}
+
+main {
+    overflow-y: auto;
+    margin: 0.8rem;
+    scrollbar-width: thin;
+}   
+
+ol {
+    color: rgb(180, 179, 179);
+    font-size: 15px;
+}
+
+footer {
+    color: #fff;
+    margin: 2rem;
 }
