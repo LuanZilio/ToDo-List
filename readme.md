@@ -13,11 +13,11 @@ Atualmente, ele possui apenas o front-end desenvolvido, com foco em estrutura e 
 ## 🎯 Funcionalidades atuais
 - Interface de lista de tarefas
 - Campo de input para adicionar tarefas
-- Botões de ação (ainda não funcionais)
+- Botão de adicionar tarefas
 
 ## 🔧 Próximos passos
-- Implementar funcionalidade com JavaScript
-- Adicionar criação de tarefas
+- Continuar implementando funcionalidade com JavaScript
+- Adicionar botões para mudança de status das tarefas
 - Marcar tarefas como concluídas
 - Remover tarefas
 - Armazenamento local (localStorage)
